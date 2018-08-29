@@ -16,7 +16,7 @@ var obj = {
   foo: 'bar'
 }
 
-// Object.freeze(obj)
+Object.freeze(obj)
 
 new Vue({
   el: '#app',
@@ -41,6 +41,6 @@ new Vue({
     a: 1
   },
   created: function () {
-    console.log('a is: ' + this.a)
+    console.log('a is')
   }
 })
