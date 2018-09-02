@@ -6,11 +6,19 @@
 //   }
 // })
 
+// new Vue({
+//   data: {
+//     classObject: {
+//       active: true,
+//       'text-danger': false
+//     }
+//   }
+// })
+
 new Vue({
+  el: '#array',
   data: {
-    classObject: {
-      active: true,
-      'text-danger': false
-    }
+    activeClass: 'actice',
+    errorClass: 'text-danger'
   }
 })
