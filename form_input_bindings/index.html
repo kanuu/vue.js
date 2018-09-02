@@ -30,6 +30,24 @@
   <br>
   <span>Checked names: {{ checkedNames }}</span>
 </div>
+<div id='radio'>
+  <input type="radio" id="one" value="ご飯" v-model="picked">
+  <label for="one">1:ご飯</label>
+  <br>
+  <input type="radio" id="two" value="ヌードル" v-model="picked">
+  <label for="two">2:ヌードル</label>
+  <br>
+  <span>Picked: {{ picked }}</span>
+</div>
+<div id='selected'>
+  <select v-model="selected">
+    <option disabled value="">選んでね</option>
+    <option>エンジニにゃ</option>
+    <option>プログラみゃ</option>
+    <option>ぬこ</option>
+  </select>
+  <span>選択: {{ selected }}</span>
+</div>
 </body>
 <script src="./index.js"></script>
 </html>

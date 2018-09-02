@@ -25,3 +25,17 @@ new Vue({
     checkedNames: []
   }
 })
+
+new Vue({
+  el: '#radio',
+  data: {
+    picked: ''
+  }
+})
+
+new Vue({
+  el: '#selected',
+  data: {
+    selected: ''
+  }
+})
