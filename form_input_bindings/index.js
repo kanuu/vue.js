@@ -13,6 +13,13 @@ new Vue({
 })
 
 new Vue({
+  el: '#check',
+  data: {
+    boolean: false
+  }
+})
+
+new Vue({
   el: '#check_box',
   data: {
     checkedNames: []

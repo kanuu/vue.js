@@ -16,6 +16,10 @@
   <br>
   <textarea v-model="message" placeholder="add multiple lines"></textarea>
 </div>
+<div id='check'>
+  <input type="checkbox" v-model="boolean">
+  <label for="boolean">{{ boolean }}</label>
+</div>
 <div id='check_box'>
   <input type="checkbox" id="jack" value="Jack" v-model="checkedNames">
   <label for="jack">Jack</label>
