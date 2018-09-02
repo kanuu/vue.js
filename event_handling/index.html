@@ -6,6 +6,13 @@
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
+<div id="example-1">
+  <button v-on:click="counter += 1"> + 1 </button>
+  <p>ボタンは {{ counter }} 回クリックされました</p>
+</div>
+<div id="greet">
+  <button v-on:click="greet">Greet</button>
+</div>
 </body>
 <script src="./index.js"></script>
 </html>
