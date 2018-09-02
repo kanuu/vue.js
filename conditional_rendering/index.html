@@ -7,8 +7,10 @@
 </head>
 <body>
 <div id="if">
-  <h1 v-if="Math.random() > 0.5">Now you see me</h1>
-  <h1 v-else>Now you dont</h1>
+  <h1 v-if="type === 'A'">A</h1>
+  <h1 v-else-if="type === 'B'">B</h1>
+  <h1 v-else-if="type === 'C'">C</h1>
+  <h1 v-else>Not A/B/C</h1>
 </div>
 </body>
 <script src="./index.js"></script>
