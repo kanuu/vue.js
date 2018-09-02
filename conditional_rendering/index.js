@@ -1,6 +1,6 @@
 new Vue({
   el: '#if',
-  data: {
-    ok: false
-  }
+  // data: {
+  //   ok: false
+  // }
 })
