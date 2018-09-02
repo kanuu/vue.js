@@ -11,6 +11,11 @@
     {{ item.message }}
   </li>
 </ul>
+<ul id="example-2">
+  <li v-for="(item, index) in items">
+    {{ parentMessage }} - {{ index }} {{ item.message }}
+  </li>
+</ul>
 </body>
 <script src="./index.js"></script>
 </html>
