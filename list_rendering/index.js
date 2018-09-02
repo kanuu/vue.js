@@ -19,7 +19,7 @@ var example2 = new Vue({
   }
 })
 
-new Vue({
+let object = new Vue({
   el: '#v-for-object',
   data: {
     object: {
