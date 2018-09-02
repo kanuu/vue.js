@@ -51,7 +51,7 @@
       v-for="(todo, index) in todos"
       v-bind:key="todo.id"
       v-bind:title="todo.title"
-      v-on:remove="todos.slice(index, 1)"
+      v-on:remove="todos.splice(index, 1)"
     ></li>
   </ul>
 </div>
