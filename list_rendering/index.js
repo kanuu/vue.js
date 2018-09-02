@@ -56,3 +56,13 @@ let numbers = new Vue({
 new Vue({
   el: '#range'
 })
+
+new Vue({
+  el: '#items',
+  data: {
+    items: [
+      { message: '眠い' },
+      { message: '起きた' }
+    ]
+  }
+})
