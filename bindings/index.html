@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>template_syntax</title>
+  <title>bindings</title>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
-<div id="example">
-  <p>Original message: "{{ message }}"</p>
-  <p>Computed reversed message: "{{ reversedMessage }}"</p>
+<div id="static" v-bind:class="{ active: isActive, 'text-danger': hasError }">
+aaaa
 </div>
 </body>
 <script src="./index.js"></script>
