@@ -39,3 +39,16 @@ new Vue({
     selected: []
   }
 })
+
+
+new Vue({
+  el: '#selected-v-for',
+  data: {
+    selected: 'A',
+    options: [
+      { text: 'one', value: 'A' },
+      { text: 'two', value: 'B' },
+      { text: 'three', value: 'C' }
+    ]
+  }
+})
