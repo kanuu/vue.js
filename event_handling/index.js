@@ -19,3 +19,12 @@ let greet = new Vue({
     }
   }
 })
+
+let say = new Vue({
+  el: '#say',
+  methods: {
+    say: function (message) {
+      alert(message)
+    }
+  }
+})
