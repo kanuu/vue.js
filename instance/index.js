@@ -1,10 +1,10 @@
 var data = { a: 1 }
 
+vm.a == data.a
+
 var vm = new Vue({
   data: data
 })
-
-vm.a == data.a
 
 vm.a = 2
 console.log(data.a)
