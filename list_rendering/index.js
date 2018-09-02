@@ -18,3 +18,14 @@ var example2 = new Vue({
     ]
   }
 })
+
+new Vue({
+  el: '#v-for-object',
+  data: {
+    object: {
+      firstName: 'John',
+      lastName: 'Doe',
+      age: 30
+    }
+  }
+})
