@@ -36,6 +36,6 @@ new Vue({
 new Vue({
   el: '#selected',
   data: {
-    selected: ''
+    selected: []
   }
 })
