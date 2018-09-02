@@ -1,7 +1,16 @@
+// new Vue({
+//   el: '#static',
+//   data: {
+//     isActive: true,
+//     hasError: false
+//   }
+// })
+
 new Vue({
-  el: '#static',
   data: {
-    isActive: true,
-    hasError: false
+    classObject: {
+      active: true,
+      'text-danger': false
+    }
   }
 })
