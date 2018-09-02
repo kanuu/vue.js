@@ -51,3 +51,8 @@ let numbers = new Vue({
     }
   }
 })
+
+
+new Vue({
+  el: '#range'
+})
