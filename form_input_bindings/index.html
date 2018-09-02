@@ -6,7 +6,17 @@
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
-<div id='example-3'>
+<div id="message">
+  <input v-model="message" placeholder="edit me">
+  <p>Message is: {{ message }}</p>
+</div>
+<div id="multiline">
+  <span>Multiline message is:</span>
+  <p style="white-space: pre-line;">{{ message }}</p>
+  <br>
+  <textarea v-model="message" placeholder="add multiple lines"></textarea>
+</div>
+<div id='check_box'>
   <input type="checkbox" id="jack" value="Jack" v-model="checkedNames">
   <label for="jack">Jack</label>
   <input type="checkbox" id="john" value="John" v-model="checkedNames">
