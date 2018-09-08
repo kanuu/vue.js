@@ -52,3 +52,17 @@ new Vue({
     ]
   }
 })
+
+let toggle = new Vue({
+  el: '#toggle',
+  data: {
+    toggle: ''
+  }
+})
+
+let select_options = new Vue({
+  el: '#select_options',
+  data: {
+    selected: ''
+  }
+})

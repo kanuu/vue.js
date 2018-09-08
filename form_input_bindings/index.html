@@ -56,6 +56,24 @@
   </select>
   <span>Selected: {{ selected }}</span>
 </div>
+<div id='toggle'>
+  <!--<input type="radio" v-model="picked" value="a">-->
+  <input type="checkbox" v-model="toggle">
+  <!--<select v-model="selected">-->
+    <!--<option value="abc">ABC</option>-->
+  <!--</select>-->
+  <input
+    type="checkbox"
+    v-model="toggle"
+    true-value="yes"
+    false-value="no"
+  >
+</div>
+<div id="select_options">
+  <select v-model="selected">
+    <option v-bind:value="{ number: 123 }">123</option>
+  </select>
+</div>
 </body>
 <script src="./index.js"></script>
 </html>
